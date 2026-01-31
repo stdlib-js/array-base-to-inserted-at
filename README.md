@@ -52,13 +52,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import toInsertedAt from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-to-inserted-at@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/array-base-to-inserted-at/tags). For example,
+
+```javascript
 import toInsertedAt from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-to-inserted-at@v0.1.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { assign } from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-to-inserted-at@v0.1.0-esm/index.mjs';
+import { assign } from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-to-inserted-at@esm/index.mjs';
 ```
 
 #### toInsertedAt( x, index, value )
@@ -136,7 +141,7 @@ The function accepts the following arguments:
 <script type="module">
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
-import toInsertedAt from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-to-inserted-at@v0.1.0-esm/index.mjs';
+import toInsertedAt from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-to-inserted-at@esm/index.mjs';
 
 // Define an array:
 var opts = {
