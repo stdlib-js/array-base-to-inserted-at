@@ -52,13 +52,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import toInsertedAt from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-to-inserted-at@deno/mod.js';
+import toInsertedAt from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-to-inserted-at@v0.1.1-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { assign } from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-to-inserted-at@deno/mod.js';
+import { assign } from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-to-inserted-at@v0.1.1-deno/mod.js';
 ```
 
 #### toInsertedAt( x, index, value )
@@ -131,7 +131,7 @@ The function accepts the following arguments:
 
 ```javascript
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@deno/mod.js';
-import toInsertedAt from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-to-inserted-at@deno/mod.js';
+import toInsertedAt from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-to-inserted-at@v0.1.1-deno/mod.js';
 
 // Define an array:
 var opts = {
